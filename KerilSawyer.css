@@ -1,0 +1,22 @@
+#staticbar { height: 100%; width: 100%; background-color: black; border-bottom: 1px dotted #d6a24a; padding-top: 20px; padding-bottom: 10px; }
+
+.tagline { font-size: 9pt; color: gray; }
+
+.navbar-nav { padding-left: 35%; }
+
+.navbar { margin-bottom: 0px; }
+
+p > img { padding-left: 2%; }
+
+.headertagline { margin-right: 7%; }
+
+.hero { height: 350px; width: 100%; background-image: url("images/italy.png"); background-size: cover; }
+
+.submitinfo { height: 100%; background-color: #d6a24a; padding-left: 125px; }
+.submitinfo p { display: inline-block; padding-top: 20px; padding-bottom: 10px; margin-right: 150px; }
+
+.firstname { display: inline-block; border-radius: 5px; border-style: none; padding: 5px; margin-left: 15px; }
+
+.submit { width: 160px; background-color: #d6a24a; border: 3px solid black; margin-left: 15px; border-radius: 5px; padding: 5px; }
+
+/*# sourceMappingURL=KerilSawyer.css.map */

@@ -1,0 +1,77 @@
+// Set colors and fonts
+$secondary-color: #d6a24a;
+
+
+//This is the section pertaining to the navbar and static top
+//______________________________________________________________________________
+//______________________________________________________________________________
+#staticbar {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px dotted $secondary-color;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.tagline {
+  font-size: 9pt;
+  color: gray;
+}
+.navbar-nav {
+  padding-left: 35%
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+p > img {
+  padding-left: 2%;
+
+}
+
+.headertagline {
+  margin-right: 7%;
+}
+//This is the portion including the hero
+//______________________________________________________________________________
+//______________________________________________________________________________
+.hero {
+  height: 350px;
+  width: 100%;
+  background-image: url("images/italy.png");
+  background-size: cover;
+}
+
+//This is the portion below the hero that includes the submit form*/
+//______________________________________________________________________________
+//_______________________________________________________________________________
+.submitinfo {
+  height: 100%;
+  background-color: $secondary-color;
+  padding-left: 125px;
+  p {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: 150px;
+  }
+}
+
+.firstname {
+  display: inline-block;
+  border-radius: 5px;
+  border-style: none;
+  padding: 5px;
+  margin-left: 15px;
+  }
+
+.submit {
+  width: 160px;
+  background-color: $secondary-color;
+  border: 3px solid black;
+  margin-left: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
