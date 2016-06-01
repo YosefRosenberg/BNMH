@@ -1,5 +1,7 @@
 // Set colors and fonts
 $secondary-color: #d6a24a;
+$primary-font: 'Source Sans Pro';
+$secondary-font: 'Lato';
 
 
 //This is the section pertaining to the navbar and static top
@@ -15,11 +17,18 @@ $secondary-color: #d6a24a;
 }
 
 .tagline {
+  font-family: $secondary-font;
   font-size: 9pt;
   color: gray;
 }
 .navbar-nav {
-  padding-left: 35%
+  font-family: $secondary-font;
+  padding-left: 35%;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: $secondary-color;
+  border-bottom: 2px solid $secondary-color;
 }
 
 .navbar {
@@ -28,11 +37,16 @@ $secondary-color: #d6a24a;
 
 p > img {
   padding-left: 2%;
+}
 
+html {
+  background-color: $secondary-color;
 }
 
 .headertagline {
-  margin-right: 7%;
+  font-family: $primary-font;
+  font-size: 1vw;
+  margin-right: 15%;
 }
 //This is the portion including the hero
 //______________________________________________________________________________
@@ -48,10 +62,13 @@ p > img {
 //______________________________________________________________________________
 //_______________________________________________________________________________
 .submitinfo {
+  font-family: $primary-font;
   height: 100%;
   background-color: $secondary-color;
   padding-left: 125px;
   p {
+    font-family: $primary-font;
+    font-size: 1.3vw;
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -60,18 +77,64 @@ p > img {
 }
 
 .firstname {
+  font-family: $primary-font;
   display: inline-block;
   border-radius: 5px;
   border-style: none;
   padding: 5px;
   margin-left: 15px;
-  }
+}
 
 .submit {
+  font-family: $primary-font;
   width: 160px;
   background-color: $secondary-color;
   border: 3px solid black;
   margin-left: 15px;
   border-radius: 5px;
   padding: 5px;
+}
+
+.submit:hover {
+  font-family: $primary-font;
+  color: $secondary-color;
+  background-color: black;
+}
+
+.communitypicks {
+  font-size: 34px;
+  display: inline-block;
+  font-family: $primary-font;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+.events-programs {
+  font-size: 34px;
+  display: inline-block;
+  font-family: $primary-font;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+//This is the footer portion//
+//______________________________________________________________________________
+//______________________________________________________________________________
+
+.footer {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.startearning {
+  display: inline-block;
+  float: right;
+  color: white;
+}
+
+.insiderinfo {
+  display: inline-block;
+  color: $secondary-color;
 }

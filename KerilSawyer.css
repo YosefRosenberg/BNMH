@@ -1,22 +1,38 @@
 #staticbar { height: 100%; width: 100%; background-color: black; border-bottom: 1px dotted #d6a24a; padding-top: 20px; padding-bottom: 10px; }
 
-.tagline { font-size: 9pt; color: gray; }
+.tagline { font-family: "Lato"; font-size: 9pt; color: gray; }
 
-.navbar-nav { padding-left: 35%; }
+.navbar-nav { font-family: "Lato"; padding-left: 35%; }
+
+.navbar-inverse .navbar-nav > li > a:hover { color: #d6a24a; border-bottom: 2px solid #d6a24a; }
 
 .navbar { margin-bottom: 0px; }
 
 p > img { padding-left: 2%; }
 
-.headertagline { margin-right: 7%; }
+html { background-color: #d6a24a; }
+
+.headertagline { font-family: "Source Sans Pro"; font-size: 1vw; margin-right: 15%; }
 
 .hero { height: 350px; width: 100%; background-image: url("images/italy.png"); background-size: cover; }
 
-.submitinfo { height: 100%; background-color: #d6a24a; padding-left: 125px; }
-.submitinfo p { display: inline-block; padding-top: 20px; padding-bottom: 10px; margin-right: 150px; }
+.submitinfo { font-family: "Source Sans Pro"; height: 100%; background-color: #d6a24a; padding-left: 125px; }
+.submitinfo p { font-family: "Source Sans Pro"; font-size: 1.3vw; display: inline-block; padding-top: 20px; padding-bottom: 10px; margin-right: 150px; }
 
-.firstname { display: inline-block; border-radius: 5px; border-style: none; padding: 5px; margin-left: 15px; }
+.firstname { font-family: "Source Sans Pro"; display: inline-block; border-radius: 5px; border-style: none; padding: 5px; margin-left: 15px; }
 
-.submit { width: 160px; background-color: #d6a24a; border: 3px solid black; margin-left: 15px; border-radius: 5px; padding: 5px; }
+.submit { font-family: "Source Sans Pro"; width: 160px; background-color: #d6a24a; border: 3px solid black; margin-left: 15px; border-radius: 5px; padding: 5px; }
+
+.submit:hover { font-family: "Source Sans Pro"; color: #d6a24a; background-color: black; }
+
+.communitypicks { font-size: 34px; display: inline-block; font-family: "Source Sans Pro"; border-bottom: 1px solid black; font-weight: bold; }
+
+.events-programs { font-size: 34px; display: inline-block; font-family: "Source Sans Pro"; border-bottom: 1px solid black; font-weight: bold; }
+
+.footer { display: inline-block; height: 100%; width: 100%; background-color: black; }
+
+.startearning { display: inline-block; float: right; color: white; }
+
+.insiderinfo { display: inline-block; color: #d6a24a; }
 
 /*# sourceMappingURL=KerilSawyer.css.map */
