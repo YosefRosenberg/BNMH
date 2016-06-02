@@ -20,10 +20,38 @@ $secondary-font: 'Lato';
   font-family: $secondary-font;
   font-size: 9pt;
   color: gray;
+  img {
+    margin-left: 1%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  img:first-child:hover {
+    background-color: blue;
+  }
+  img:nth-child(1):hover {
+    background-color: blue;
+  }
+  img:nth-child(2):hover {
+    background-color: blue;
+  }
+  img:nth-child(3):hover {
+    background-color: red;
+  }
+  img:nth-child(4):hover {
+    background-color: red;
+  }
+  img:last-child:hover {
+    background-color: blue;
+  }
 }
+
 .navbar-nav {
   font-family: $secondary-font;
   padding-left: 35%;
+  max-height: 50px;
+  li {
+    margin-top: 10px;
+  }
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -35,8 +63,8 @@ $secondary-font: 'Lato';
   margin-bottom: 0px;
 }
 
-p > img {
-  padding-left: 2%;
+body {
+  // overflow: hidden;
 }
 
 html {
@@ -45,9 +73,14 @@ html {
 
 .headertagline {
   font-family: $primary-font;
-  font-size: 1vw;
   margin-right: 15%;
 }
+
+.container {
+  margin-bottom: -12px;
+  margin-top: -12px;
+}
+
 //This is the portion including the hero
 //______________________________________________________________________________
 //______________________________________________________________________________
@@ -121,20 +154,86 @@ html {
 //______________________________________________________________________________
 //______________________________________________________________________________
 
-.footer {
-  display: inline-block;
+.col-sm-12 {
+  display: flex;
+  justify-content: center;
   height: 100%;
   width: 100%;
   background-color: black;
+  h1 {
+    display: flex;
+    justify-content: center;
+  h4 {
+    display: flex;
+    justify-content: center;
+    }
+  }
 }
 
 .startearning {
-  display: inline-block;
-  float: right;
   color: white;
 }
 
 .insiderinfo {
-  display: inline-block;
   color: $secondary-color;
+}
+
+.inputname {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  input {
+    border-radius: 10px;
+    text-indent: 10px;
+    border-style: solid;
+  }
+  // width: 500px;
+}
+
+.inputemail {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  input {
+    border-radius: 10px;
+    text-indent: 10px;
+    border-style: solid;
+  }
+  // width: 500px;
+}
+
+.inputsubmit {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 40px;
+  input {
+    border-radius: 10px;
+    border-style: solid;
+    width: 100%;
+    background-color: yellow;
+    border: 2px solid black;
+  &:hover {
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow;
+    }
+  }
+}
+
+.vimeo {
+  padding: 25px;
+}
+
+.belowsubmit {
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.gotaquestion {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
 }

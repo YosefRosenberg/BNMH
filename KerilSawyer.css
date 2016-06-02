@@ -1,18 +1,26 @@
 #staticbar { height: 100%; width: 100%; background-color: black; border-bottom: 1px dotted #d6a24a; padding-top: 20px; padding-bottom: 10px; }
 
 .tagline { font-family: "Lato"; font-size: 9pt; color: gray; }
+.tagline img { margin-left: 1%; padding: 10px; border-radius: 10px; }
+.tagline img:first-child:hover { background-color: blue; }
+.tagline img:nth-child(1):hover { background-color: blue; }
+.tagline img:nth-child(2):hover { background-color: blue; }
+.tagline img:nth-child(3):hover { background-color: red; }
+.tagline img:nth-child(4):hover { background-color: red; }
+.tagline img:last-child:hover { background-color: blue; }
 
-.navbar-nav { font-family: "Lato"; padding-left: 35%; }
+.navbar-nav { font-family: "Lato"; padding-left: 35%; max-height: 50px; }
+.navbar-nav li { margin-top: 10px; }
 
 .navbar-inverse .navbar-nav > li > a:hover { color: #d6a24a; border-bottom: 2px solid #d6a24a; }
 
 .navbar { margin-bottom: 0px; }
 
-p > img { padding-left: 2%; }
-
 html { background-color: #d6a24a; }
 
-.headertagline { font-family: "Source Sans Pro"; font-size: 1vw; margin-right: 15%; }
+.headertagline { font-family: "Source Sans Pro"; margin-right: 15%; }
+
+.container { margin-bottom: -12px; margin-top: -12px; }
 
 .hero { height: 350px; width: 100%; background-image: url("images/italy.png"); background-size: cover; }
 
@@ -29,10 +37,28 @@ html { background-color: #d6a24a; }
 
 .events-programs { font-size: 34px; display: inline-block; font-family: "Source Sans Pro"; border-bottom: 1px solid black; font-weight: bold; }
 
-.footer { display: inline-block; height: 100%; width: 100%; background-color: black; }
+.col-sm-12 { display: flex; justify-content: center; height: 100%; width: 100%; background-color: black; }
+.col-sm-12 h1 { display: flex; justify-content: center; }
+.col-sm-12 h1 h4 { display: flex; justify-content: center; }
 
-.startearning { display: inline-block; float: right; color: white; }
+.startearning { color: white; }
 
-.insiderinfo { display: inline-block; color: #d6a24a; }
+.insiderinfo { color: #d6a24a; }
+
+.inputname { display: flex; justify-content: center; height: 40px; }
+.inputname input { border-radius: 10px; text-indent: 10px; border-style: solid; }
+
+.inputemail { display: flex; justify-content: center; height: 40px; }
+.inputemail input { border-radius: 10px; text-indent: 10px; border-style: solid; }
+
+.inputsubmit { display: flex; justify-content: center; background-color: black; height: 40px; }
+.inputsubmit input { border-radius: 10px; border-style: solid; width: 100%; background-color: yellow; border: 2px solid black; }
+.inputsubmit input:hover { background-color: black; color: yellow; border: 2px solid yellow; }
+
+.vimeo { padding: 25px; }
+
+.belowsubmit { color: gray; display: flex; justify-content: center; }
+
+.gotaquestion { background-color: black; color: white; display: flex; justify-content: center; }
 
 /*# sourceMappingURL=KerilSawyer.css.map */
